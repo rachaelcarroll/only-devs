@@ -1,0 +1,24 @@
+/* ==========================================================================
+  Elements - Landmarks
+========================================================================== */
+
+body {
+  background-color: $color-primary;
+}
+
+header {
+  @include flex(row, between);
+}
+
+main {
+  @include flex(column, center);
+}
+
+article {
+  @include flex(column, around);
+}
+
+button {
+  border: unset;
+}
+
